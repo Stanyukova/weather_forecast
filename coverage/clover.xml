@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1649707171361" clover="3.2.0">
+  <project timestamp="1649707171361" name="All files">
+    <metrics statements="51" coveredstatements="51" conditionals="31" coveredconditionals="24" methods="9" coveredmethods="9" elements="91" coveredelements="84" complexity="0" loc="51" ncloc="51" packages="1" files="6" classes="6"/>
+    <file name="drawList.js" path="C:\Users\morju\Desktop\MARIA\work\forecast_otus\src\drawList.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
+    <file name="drawWeather.js" path="C:\Users\morju\Desktop\MARIA\work\forecast_otus\src\drawWeather.js">
+      <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="getCity.js" path="C:\Users\morju\Desktop\MARIA\work\forecast_otus\src\getCity.js">
+      <metrics statements="11" coveredstatements="11" conditionals="10" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="cond" truecount="8" falsecount="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+    <file name="getWeather.js" path="C:\Users\morju\Desktop\MARIA\work\forecast_otus\src\getWeather.js">
+      <metrics statements="16" coveredstatements="16" conditionals="11" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="cond" truecount="8" falsecount="3"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="readList.js" path="C:\Users\morju\Desktop\MARIA\work\forecast_otus\src\readList.js">
+      <metrics statements="3" coveredstatements="3" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="cond" truecount="4" falsecount="1"/>
+      <line num="2" count="1" type="cond" truecount="0" falsecount="1"/>
+      <line num="3" count="1" type="stmt"/>
+    </file>
+    <file name="saveList.js" path="C:\Users\morju\Desktop\MARIA\work\forecast_otus\src\saveList.js">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

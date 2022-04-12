@@ -1,0 +1,54 @@
+body {
+  background-color: rgba(88, 56, 30, 0.397);
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 90px;
+  color: #c8deed;
+}
+
+.userInput {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  height: 1rem;
+  padding: 0.5rem 0.9rem;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: bold;
+
+  color: #fafafa;
+  background-color: rgba(112, 212, 249, 0.46);
+
+  border: 2px solid #ffffff;
+  border-radius: 0.5rem;
+}
+
+.button {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #1c4a56b2;
+  font-family: inherit;
+  font-size: 80%;
+  font-weight: normal;
+}
+
+.boxBlock {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.boxBlock li {
+  list-style: none;
+  border: 1px #cccccc;
+  margin: 10px 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: bold;
+  color: #264727b2;
+}
