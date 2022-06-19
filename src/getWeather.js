@@ -1,3 +1,17 @@
+// export async function getWeather(cityName, appID) {
+//   try {
+//     const city = cityName.split(" ").join("+");
+//     const response = await fetch(
+//       `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&lang=ru&appid=${appID}`
+
+//     );
+
+// return response.json();
+// } catch (e) {
+//   console.log(e.message);
+// }
+// }
+
 export async function getWeather(cityName, appID) {
   try {
     const city = cityName.split(" ").join("+");

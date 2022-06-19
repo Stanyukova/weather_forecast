@@ -25,6 +25,7 @@ describe("testing function drawWeather", () => {
       name: "Казань",
       main: { temp: 5 },
       weather: [{ icon: "d03" }],
+      wind: { speed: 5 },
     };
     drawWeather(divForWeather, data);
     const img = divForWeather.querySelector("img");

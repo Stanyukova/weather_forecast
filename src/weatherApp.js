@@ -9,14 +9,16 @@ import { drawList } from "./drawList";
 export async function weatherApp(elem) {
   const el = elem;
   const MAP_KEY = "AIzaSyDANLeEnr2Wf05hG0wxHA0Ucqz5CeZF_Cw";
-  const APP_ID = "6483f07f86904206d5977c6c6ae4e4e1";
+  const APP_ID = "8e26336b8705e39fdb2526574ca7f547";
   const divForWeather = el.querySelector(".divForWeather");
   const map = el.querySelector(".map");
   const form = el.querySelector("form");
   const listEl = el.querySelector(".list");
 
   const data = await getWeather(await getCity(), APP_ID);
+
   drawWeather(divForWeather, data);
+
   drawMap(map, await getCity(), MAP_KEY);
 
   const items = await readList();
@@ -27,7 +29,9 @@ export async function weatherApp(elem) {
     const liElement = ev.target;
     const city = liElement.innerText;
     const dataWeather = await getWeather(city, APP_ID);
+
     drawWeather(divForWeather, dataWeather);
+
     drawMap(map, city, MAP_KEY);
   });
 
@@ -42,6 +46,7 @@ export async function weatherApp(elem) {
     const data1 = await getWeather(city, APP_ID);
 
     drawWeather(divForWeather, data1);
+
     drawMap(map, city, MAP_KEY);
 
     items.push(value);
