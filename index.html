@@ -3,32 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <title>Прогноз погоды</title>
+    <!-- <link rel="stylesheet" href="/src/styles/style.css">
+    <link href="/src/styles/media-queries.css" rel="stylesheet" type="text/css"> -->
   </head>
 
   <body>
     <div class="timer"></div>
-    <section class="sectionHead">
-      <nav class="nav-website">
-        <div class="containerHead">
-          <div class="logoWeather">
-            <h3>CheckWeather</h3>
-            <img
-              class="logoWeatherNav"
-              alt="Логотип сайта"
-              src="/src/assets/logo/Weather-Forecast-Black.svg"
-            />
+
+    <nav class="nav-website">
+      <div class="container">
+        <div class="navFlex">
+          <div>
+            <div class="logoWeather">
+              <h3>CheckWeather</h3>
+              <img
+                class="logoWeatherNav"
+                alt="Логотип сайта"
+                src="/src/assets/logo/Weather-Forecast-Black.svg"
+              />
+            </div>
           </div>
-          <div class="headerMenu">
-            <ul class="navLi">
-              <li>Новости</li>
-              <li>Карта осадков</li>
-              <li>Прогноз на месяц</li>
-              <li>Помощь</li>
-              <li>О нас</li>
-            </ul>
+          <div>
+            <div class="headerMenu">
+              <ul class="menu menu_active">
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Главная</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Карта осадков</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Прогноз на месяц</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Помощь</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">О нас</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="navSign">
-            <div class="navSignIcon">
+          <div>
+            <div class="navSign">
               <img
                 class="iconNotification"
                 src="./src/assets/logo/preferencesdesktopnotificationbell_102984.svg"
@@ -42,24 +59,22 @@
             </div>
           </div>
         </div>
-      </nav>
-    </section>
-    <section class="sectionFont">
-      <div class="where-to">
-        <img
-          class="image"
-          src="./src/assets/image/1617066355_22-p-oboi-fon-peizazh-22.jpg"
-          alt="Фон Узнай прогноз погоды"
-          class="first-img"
-        />
       </div>
+      <div class="hamburger hamburger_active">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
 
-      <div class="container">
-        <div class="promo">
+    <div class="sectionFont"></div>
+    <div class="container">
+      <div class="promo">
+        <div>
           <h1 class="title">CheckWeather</h1>
 
           <h2>Узнать прогноз погоды быстро!</h2>
-          <div class="promo-title">
+          <div class="promo-title xs-hidden">
             Определение текущей геолокации и вывод прогноза погоды с
             использованием API OpenWeather.<br />
             Отображение карты местности с сохранением до 10 поисковых запросов в
@@ -67,7 +82,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <div id="app">
       <div class="clock">
         <script src="/src/clock.js" defer></script>
@@ -87,13 +102,19 @@
           </form>
 
           <div class="container">
-            <div class="divForWeather"></div>
-
-            <div class="map"></div>
+            <div class="contentFlex">
+              <div>
+                <div class="divForWeather"></div>
+              </div>
+              <div>
+                <div class="map"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="list"></div>
       </section>
     </div>
+    <div class="clock"></div>
   </body>
 </html>

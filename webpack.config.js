@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { resolve } = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const MediaQueryPlugin = require("media-query-plugin");
 
 const { NODE_ENV } = process.env;
 
@@ -33,6 +34,7 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           "css-loader",
+          MediaQueryPlugin.loader,
           "postcss-loader",
           "sass-loader",
         ],
@@ -52,12 +54,18 @@ module.exports = {
   },
   mode: NODE_ENV === "production" ? "production" : "development",
   // mode: 'development',
-  //   watch: true,
+  watch: true,
   plugins: [
     new HtmlWebpackPlugin({
       template: resolve(__dirname, "index.html"),
     }),
     new MiniCssExtractPlugin(),
+    new MediaQueryPlugin({
+      include: ["style"],
+      queries: {
+        "print, screen and (min-width: 768px)": "desktop",
+      },
+    }),
   ],
   optimization: {
     minimizer: ["...", new CssMinimizerPlugin()],

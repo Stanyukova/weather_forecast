@@ -1,0 +1,207 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+
+  h2 {
+    bottom: 4px;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-top: -71px;
+  }
+
+  .headerMenu {
+    width: 658px;
+    margin: 0 auto;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .navFlex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .headerMenu {
+    width: 557px;
+    margin-left: 20px;
+  }
+
+  h2 {
+    bottom: 4px;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-top: -10px;
+  }
+
+  .menu li {
+    padding: 0 14px;
+  }
+
+  .menu_link {
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+  .navSign {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40%;
+  }
+
+  .iconAcc {
+    margin-bottom: 2px;
+  }
+  .mapImg {
+    width: 600px;
+  }
+}
+
+@media print, screen and (max-width: 767px) {
+  /* .container {
+    max-width: 720px;
+
+  } */
+
+  .logoWeather {
+    width: 30px;
+  }
+
+  .navSign {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40%;
+  }
+
+  .iconAcc {
+    margin-bottom: 2px;
+  }
+
+  h2 {
+    bottom: 199px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-top: -170px;
+  }
+
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+
+  .menu_active {
+    left: 0;
+    margin-left: 0;
+  }
+
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+
+  /* .menu_link {
+    font-size: 20px;
+  } */
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 6px;
+
+    transition: 0.5s all;
+  }
+
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  .mapImg {
+    width: 400px;
+  }
+  .city {
+    font-size: 30px;
+  }
+  .temp {
+    font-size: 50px;
+  }
+  .descr {
+    font-size: 15px;
+  }
+}
+
+@media print, screen and (max-width: 575px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .logoWeather {
+    width: 20px;
+  }
+
+  .headerMenu {
+    width: 200px;
+    margin: -6px auto 0px;
+  }
+
+  .menu_link {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 5px;
+    color: #fff;
+  }
+  .contentFlex {
+    flex-direction: column;
+  }
+  .xs-hidden {
+    display: none;
+  }
+}

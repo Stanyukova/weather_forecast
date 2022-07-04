@@ -22,7 +22,7 @@
           <div class="fl pad1y space-right2">
             <span class="strong">100% </span>
             <span class="quiet">Statements</span>
-            <span class="fraction">13/13</span>
+            <span class="fraction">17/17</span>
           </div>
 
           <div class="fl pad1y space-right2">
@@ -40,7 +40,7 @@
           <div class="fl pad1y space-right2">
             <span class="strong">100% </span>
             <span class="quiet">Lines</span>
-            <span class="fraction">13/13</span>
+            <span class="fraction">17/17</span>
           </div>
         </div>
         <p class="quiet">
@@ -69,7 +69,15 @@
 <a name='L11'></a><a href='#L11'>11</a>
 <a name='L12'></a><a href='#L12'>12</a>
 <a name='L13'></a><a href='#L13'>13</a>
-<a name='L14'></a><a href='#L14'>14</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -90,6 +98,10 @@
     &lt;p class="city"&gt;${data.name}&lt;/p&gt;
     &lt;p class="temp"&gt;${Math.round(data.main.temp)}&amp;#8451&lt;/p&gt;
     &lt;p class="descr"&gt;${data.weather[0].description}&lt;/p&gt;
+      &lt;p class="humidity"&gt;Влажность: ${data.main.humidity} %&lt;/p&gt;
+      &lt;p class="wind"&gt;Ветер: ${data.wind.speed} м/с &lt;/p&gt;
+      &lt;p class="visibility"&gt;Видимость: ${data.visibility * 0.001} км &lt;/p&gt;
+      
     &lt;div class="icon"&gt;&lt;img src="https://openweathermap.org/img/wn/${
       data.weather[0].icon
     }@2x.png"&gt;&lt;/div&gt;
@@ -109,7 +121,7 @@
         rel="noopener noreferrer"
         >istanbul</a
       >
-      at Mon Apr 11 2022 22:59:31 GMT+0300 (Москва, стандартное время)
+      at Sun Jun 19 2022 19:53:28 GMT+0300 (Москва, стандартное время)
     </div>
     <script src="prettify.js"></script>
     <script>

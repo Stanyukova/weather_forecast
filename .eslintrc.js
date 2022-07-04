@@ -39,8 +39,11 @@ module.exports = {
     "prefer-rest-params": 0,
     "no-return-assign": 0,
     "no-fallthrough": 0,
+    eqeqeq: 0,
     "func-names": 0,
     "no-shadow": 0,
+    "no-useless-escape": 0,
+    "no-promise-executor-return": 0,
     "no-alert": "off",
 
     "no-console": "off",
