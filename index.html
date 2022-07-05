@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Прогноз погоды</title>
-    <!-- <link rel="stylesheet" href="/src/styles/style.css">
-    <link href="/src/styles/media-queries.css" rel="stylesheet" type="text/css"> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
@@ -30,16 +34,16 @@
                   <a href="#" class="menu_link">Главная</a>
                 </li>
                 <li class="menu_item">
-                  <a href="#" class="menu_link">Карта осадков</a>
+                  <a href="#map" class="menu_link">Карта</a>
                 </li>
                 <li class="menu_item">
-                  <a href="#" class="menu_link">Прогноз на месяц</a>
+                  <a href="#Weather" class="menu_link">Прогноз погоды</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Новости</a>
                 </li>
                 <li class="menu_item">
                   <a href="#" class="menu_link">Помощь</a>
-                </li>
-                <li class="menu_item">
-                  <a href="#" class="menu_link">О нас</a>
                 </li>
               </ul>
             </div>
@@ -104,10 +108,10 @@
           <div class="container">
             <div class="contentFlex">
               <div>
-                <div class="divForWeather"></div>
+                <div class="divForWeather" id="weather"></div>
               </div>
               <div>
-                <div class="map"></div>
+                <div class="map" name="map"></div>
               </div>
             </div>
           </div>
@@ -116,5 +120,87 @@
       </section>
     </div>
     <div class="clock"></div>
+    <section class="sectionSlider">
+      <div class="container">
+        <div class="wrapper">
+          <!-- Контент -->
+
+          <div class="slider">
+            <div class="slider__item filter">
+              <img
+                class="sliderImg"
+                src="./src/assets/image/img/slides/6162f0c3ae5ac93ec0601c5b.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slider__item">
+              <img
+                class="sliderImg"
+                src="./src/assets/image/img/slides/62949be602e8bd4369489376.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slider__item filter">
+              <img
+                class="sliderImg"
+                src="./src/assets/image/img/slides/62a8b3e502e8bd7cf1376e01.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slider__item">
+              <img
+                class="sliderImg"
+                src="./src/assets/image/img/slides/62b98bb302e8bd1c821e6580.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_divider"></div>
+      <div class="footer_wrapper">
+        <div>
+          <div class="footer_social">
+            <a href="#" class="footer_social_item">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer_social_item">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer_social_item">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer_links">
+            <div class="footer_links_main">
+              <a href="#">на главную</a>
+              <a href="#">новости</a>
+              <a href="#">погода</a>
+            </div>
+            <div class="footer_links_sub">
+              <a href="#">центр поддержки</a>
+              <a href="#">вакансии</a>
+              <a href="#">помощь</a>
+              <a href="#">блог</a>
+              <a href="#">о нас</a>
+            </div>
+            <a href="#" class="footer_links_lang">Русский</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer_mobile">
+            <a href="#">
+              <img src="/src/assets/image/Ссылки.png" alt="App Store" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </body>
 </html>

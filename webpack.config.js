@@ -3,6 +3,7 @@ const { resolve } = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MediaQueryPlugin = require("media-query-plugin");
+const path = require("path");
 
 const { NODE_ENV } = process.env;
 
