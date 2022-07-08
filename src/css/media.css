@@ -80,7 +80,7 @@
     margin-bottom: 2px;
   }
   .mapImg {
-    width: 600px;
+    width: 540px;
   }
   .footer_wrapper {
     flex-wrap: wrap;
@@ -178,7 +178,7 @@
     transform: translateY(3px) rotate(45deg);
   }
   .mapImg {
-    width: 400px;
+    width: 390px;
   }
   .city {
     font-size: 30px;
@@ -189,8 +189,14 @@
   .descr {
     font-size: 15px;
   }
+  .slider_divider {
+    margin: 400px 0 30px;
+  }
+
   .wrapper {
-    padding: 525px 0 50px;
+    /* padding: 680px 0 50px; */
+    padding: 20px 0 18px;
+    height: 77px;
   }
 }
 
@@ -224,6 +230,13 @@
   .containerWrapper {
     max-width: 540px;
   }
+  .weather-box {
+    align-content: space-around;
+    align-items: center;
+  }
+  .mapImg {
+    width: 405px;
+  }
 
   .headerMenu {
     width: 200px;
@@ -242,10 +255,14 @@
   .contentFlex {
     flex-direction: column;
   }
+  .slider_divider {
+    margin: 625px 0 30px;
+  }
 
   .wrapper {
     /* padding: 680px 0 50px; */
-    padding: 727px 0 18px;
+    padding: 20px 0 18px;
+    height: 77px;
   }
   footer {
     padding: 25px 0 20px 0;
