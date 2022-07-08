@@ -117,16 +117,6 @@
     margin-bottom: 2px;
   }
 
-  /* h2 {
-    bottom: 199px;
-    font-size: 15px;
-  }
-
-  h1 {
-    font-size: 25px;
-    margin-top: -170px;
-  } */
-
   .menu {
     position: fixed;
     flex-direction: column;
@@ -200,7 +190,7 @@
     font-size: 15px;
   }
   .wrapper {
-    padding: 500px 0 50px;
+    padding: 525px 0 50px;
   }
 }
 

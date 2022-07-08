@@ -3,7 +3,7 @@ const { resolve } = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MediaQueryPlugin = require("media-query-plugin");
-const path = require("path");
+// const path = require("path");
 
 const { NODE_ENV } = process.env;
 
@@ -51,11 +51,15 @@ module.exports = {
         test: /\.html$/i,
         loader: "html-loader",
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   mode: NODE_ENV === "production" ? "production" : "development",
   // mode: 'development',
-  watch: true,
+  // watch: true,
   plugins: [
     new HtmlWebpackPlugin({
       template: resolve(__dirname, "index.html"),
@@ -71,6 +75,11 @@ module.exports = {
   optimization: {
     minimizer: ["...", new CssMinimizerPlugin()],
   },
+  // performance: {
+  //   hints: false,
+  //   maxEntrypointSize: 512000,
+  //   maxAssetSize: 512000,
+  // },
   devServer: {
     compress: true,
     port: 9000,

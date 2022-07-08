@@ -1,6 +1,9 @@
 body {
   background-color: rgb(255, 255, 255);
 }
+html {
+  font-family: "Ubuntu", sans-serif;
+}
 
 .booked-clock-prime {
   position: relative;
@@ -56,7 +59,7 @@ h3 {
   top: 17px;
   left: 16px;
   color: ffffff;
-  font-family: "Space Grotesk", Arial, sans-serif !important;
+  font-weight: 700;
 }
 
 .menu_link {
@@ -64,6 +67,7 @@ h3 {
   font-weight: 300;
   font-size: 15px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .sectionFont {
@@ -89,14 +93,12 @@ h3 {
 H1 {
   position: relative;
   bottom: 150px;
-  font-weight: 200;
+  font-weight: 700;
   text-align: left;
   line-height: 0%;
   font-size: 30px;
   margin-top: -50px;
   color: rgb(255, 255, 255);
-
-  font-family: "Space Grotesk", Arial, sans-serif !important;
   text-shadow: 1px 1px white, 2px 2px #777;
 
   transition: all 1s;
@@ -109,13 +111,11 @@ H1:hover {
 
 h2 {
   position: relative;
-
+  font-weight: 400;
   text-align: left;
   color: #e75b35;
   font-size: 20px;
   margin-top: -120px;
-
-  font-family: "Space Grotesk", Arial, sans-serif !important;
 }
 
 .promo {
@@ -129,8 +129,10 @@ h2 {
 }
 
 .promo-title {
-  color: #0a0909;
+  color: #3f3f3f;
   font-size: 17px;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .contentFlex {
@@ -153,7 +155,7 @@ h2 {
 }
 
 .city {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
   font-size: 40px;
 
   color: rgb(75, 84, 94);
@@ -165,7 +167,7 @@ h2 {
 
 .temp {
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 600;
 
   text-shadow: 3px 2px #46556250;
   color: rgb(72 72 74);
@@ -175,23 +177,26 @@ h2 {
 
 .descr {
   color: rgb(75, 84, 94);
-  font-weight: bold;
+  font-weight: 600;
   font-style: normal;
   font-size: 20px;
-  font-family: Proxima Nova, Roboto, system-ui, Tahoma, sans-serif;
+
   padding: 13px 0;
 }
 
 .humidity {
   color: rgb(75, 84, 94);
+  font-weight: 400;
 }
 
 .wind {
   color: rgb(75, 84, 94);
+  font-weight: 400;
 }
 
 .visibility {
   color: rgb(75, 84, 94);
+  font-weight: 400;
 }
 
 .map {
@@ -236,9 +241,9 @@ h2 {
   display: block;
   padding: 0.5rem 0.9rem;
   outline: none;
-  font-family: inherit;
+
   font-size: 100%;
-  font-weight: bold;
+  font-weight: 300;
 
   color: #474646;
   background-color: rgb(255, 255, 255);
@@ -258,9 +263,9 @@ h2 {
   background-color: #48484a;
   border-color: #48484a;
   color: #f2f2f2;
-  font-family: inherit;
+
   font-size: 70%;
-  font-weight: normal;
+  font-weight: 300;
   border-radius: 0 4pt 4pt 0 !important;
   padding: 0 8pt !important;
   cursor: pointer;
@@ -287,7 +292,8 @@ h2 {
   cursor: pointer;
   color: #ffffff;
   font-size: 1vw;
-  font-family: "Space Grotesk", Arial, sans-serif !important;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 .headerMenu {
@@ -308,7 +314,6 @@ h2 {
 .menu li {
   padding: 0 15px;
   color: #ffffff;
-  font-family: Proxima Nova, Roboto, system-ui, Tahoma, sans-serif;
 }
 
 .navSign {
@@ -333,7 +338,7 @@ h2 {
 .clock {
   position: relative;
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
   color: rgb(75, 84, 94);
   font-size: 24px;
   text-align: center;
@@ -351,7 +356,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 546px 0 60px;
+  padding: 540px 0 60px;
 }
 
 .slick-slider {
